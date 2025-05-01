@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DispatchMsgService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="events_def.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eventtype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ievent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iniconfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlconnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\thread_cond.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\thread_mutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\thread_pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user_event_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user_service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BusProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bike.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iEventHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bike.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BusProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="configdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchMsgService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="events_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eventtype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glo_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ievent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iniconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlconnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlTables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\thread_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user_event_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user_service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{bedbc416-cf76-4dc6-b092-2802f1cafa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{478826b6-bd77-4227-9861-aacfe82e8e8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

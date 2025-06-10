@@ -21,11 +21,7 @@ const char * getReasonByErrorCode(i32 code)
 {
 	i32 i = 0;
 	for (i = 0; EER[i].code != ERRO_NULL; i++) // 遍历数组直到结束标记
-	{
-		if (EER[i].code == code)
-		{
-			return EER[i].reason;
-		}
-	}
+		if (EER[i].code == code) return EER[i].reason;
+
 	return EER[i].reason; // 返回未定义错误
 }

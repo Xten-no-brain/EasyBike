@@ -1,6 +1,6 @@
 # ShareBike - 共享单车管理系统（C++ 实现）
 
-![C++](https://img.shields.io/badge/C++-11%2B-blue) 
+![C++](https://img.shields.io/badge/C++-11-blue) 
 ![Protocol Buffers](https://img.shields.io/badge/Protocol_Buffers-v3.15.8-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
